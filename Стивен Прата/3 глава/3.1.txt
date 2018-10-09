@@ -1,0 +1,21 @@
+#include "pch.h"
+#include <iostream>
+using namespace std;
+
+
+
+
+int main()
+{
+	setlocale(0, "rus");
+	cout << "Ââåäèòå ðîñò â äþéìàõ:";
+	const int k = 12;
+	int n;
+	cin >> n;
+	int l = n / k;
+	int m = n - l * k;
+	cout << l << " "<<"Ôóò." << endl;
+	cout << m << " "<<"Äþéì." << endl;
+	system("pause");
+	return 0;
+}
