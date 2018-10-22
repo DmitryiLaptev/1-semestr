@@ -1,0 +1,20 @@
+#include "pch.h"
+#include <iostream>
+using namespace std;
+struct CandyBar
+{
+	char Name[20];
+	int ccal;
+	double netto;
+};
+int main()
+{
+	CandyBar snack[3] = {
+	{"Mocha Mach",7.4,345},
+	{"Grand",2.43,435},
+	{"Love", 3.15 , 656} };
+
+	cout<<"Struct "<<snack[2].Name<<" "<<snack[2].netto<<" "<<snack[0].ccal<<endl;
+	cin.get();
+	return 0;
+}

@@ -1,0 +1,17 @@
+#include "pch.h"
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+	const int ArSize = 20;
+	char OneName[ArSize];
+	char TwoName[ArSize];
+	cout<<"Enter your first name:";
+	cin.getline(OneName, ArSize);
+	cout<<"Enter your last name:";
+	cin.getline(TwoName, ArSize);
+	cout<<"Heres the information in a single string: "<<TwoName<<", "<<OneName<<endl;
+	cin.get();
+	return 0;
+}
