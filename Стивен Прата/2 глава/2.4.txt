@@ -1,0 +1,20 @@
+#include "pch.h"
+#include <iostream>
+using namespace std;
+
+void t()
+{
+	double c, f;
+	cout << "Please enter a Celsius value:" ;
+	cin >> c;
+	f = (1.8*c) + 32;
+	cout << c << " " << "degrees Celsius is" << " " << f << " " << "degrees Fahrenheit" << endl;
+	system("pause");
+}
+
+int main()
+{
+	t();
+
+	return 0;
+}
