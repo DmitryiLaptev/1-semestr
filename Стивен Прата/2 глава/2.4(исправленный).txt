@@ -1,0 +1,17 @@
+#include "pch.h"
+#include <iostream>
+using namespace std;
+
+double converting(double ñ)
+{
+	return (1.8 * ñ + 32);
+
+}
+
+int main()
+{
+	double ñ;
+	cout << "Please enter a Celsius value : ";
+	cin >> ñ;
+	cout << ñ << " degrees Celsius is " << converting(ñ) << " degrees Fahrenheit." << endl;
+}
